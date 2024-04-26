@@ -1,0 +1,31 @@
+html {
+    background-color: lightgray;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'barlow';
+    padding: 350px 0px;
+}
+input {
+    border-radius: 5px;
+    border-style: solid;
+}
+button {
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    transition: all 0.5s ease;
+}
+button:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+button:active {
+    color: black;
+    background-color: lightgray;
+    border-color: darkgray;
+}
+
